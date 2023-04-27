@@ -19,12 +19,15 @@ public class Selenium_first_class {
 		 
 		 case "chrome":
 			 ChromeDriver driver = new ChromeDriver();  
+			 driver.get("https://www.instagram.com/");
 			 break;
 		 case "firefox":
 			 FirefoxDriver driver1 = new FirefoxDriver();
+			 driver1.get("https://www.instagram.com/");
 			 break;
 		 case "edge":
 			 EdgeDriver driver2 = new EdgeDriver();
+			 driver2.get("https://www.instagram.com/");
 			 break;
 		
 		default:
